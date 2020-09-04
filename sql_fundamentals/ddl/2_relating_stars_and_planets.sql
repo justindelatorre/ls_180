@@ -1,0 +1,4 @@
+-- https://launchschool.com/exercises/f7bbde72 
+
+ALTER TABLE planets
+ADD COLUMN star_id integer NOT NULL REFERENCES stars (id);
